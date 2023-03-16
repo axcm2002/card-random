@@ -20,7 +20,9 @@ window.onload = function() {
   const he = document.getElementsByClassName("palo");
   const pi = document.getElementsByClassName("gominola");
 
-  if (palo[pal] == "♦" || palo[pal] == "♥") nu[0].style.color = "red";
-  he[0].style.color = "red";
-  pi[0].style.color = "red";
+  if (palo[pal] == "♦" || palo[pal] == "♥") {
+    nu[0].style.color = "red";
+    he[0].style.color = "red";
+    pi[0].style.color = "red";
+  }
 };
